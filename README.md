@@ -52,3 +52,9 @@ Once grafana container is running (by default on port: 3000), open the following
 
 We have provided a custom dashboard for you `example/grafana/dashboards/locust-grafana-dashboard.json` that just works out of the box with the locust-events that the listener will emmit.
 
+
+## Reference
+
+https://github.com/pjcalvo/locust-influxdb-listener
+
+
