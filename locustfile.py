@@ -35,7 +35,7 @@ class MusicConverterLoadTest(HttpUser):
 
         mp3_filename = os.path.basename('test2.mp3')
         m = MultipartEncoder(
-                fields={'newFormat': 'mp3',
+                fields={'newFormat': 'aac',
                 'fileName': (mp3_filename, open('test2.mp3', 'rb'), 'audio/mpeg')}
             )
 
