@@ -22,7 +22,7 @@ services:
     image: grafana/grafana:latest
     container_name: grafana
     ports:
-      - "6000:3000"
+      - "5001:3000"
     environment:
       GF_PATHS_PROVISIONING: "/grafana/provisioning"
     user: "0"
