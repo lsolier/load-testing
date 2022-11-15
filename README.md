@@ -48,7 +48,7 @@ docker-compose up
 All is automatically setup at runtime in the docker-compose.yml. You could add additional dashboards in the `example/grafana/dashboards/` folder.
 
 ### Use
-Once grafana container is running (by default on port: 3000), open the following link: https://localhost:3000.
+Once grafana container is running, open the following link: https://localhost:5001 or https://PUBLIC_IP:5001
 
 We have provided a custom dashboard for you `example/grafana/dashboards/locust-grafana-dashboard.json` that just works out of the box with the locust-events that the listener will emmit.
 
